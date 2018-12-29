@@ -44,6 +44,7 @@ Code:
         print (intro)
 
 How to run:
+
     pip install bs4
     pip install requests
     python crawler.py
@@ -52,10 +53,13 @@ How to run:
 
 You can clone this repository run scripts locally. For this follow steps bellow:
 
+    # clone locally
     git clone https://github.com/CoderVlogger/web-scraping-python-wikipedia.git
     cd web-scraping-python-wikipedia.git
+    # create virtualenv & activate
     virtualenv venv -p python3
     source ./venv/bin/activate
+    # install dependencies
     pip install -r requirements.txt
 
     # run api
