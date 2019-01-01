@@ -1,6 +1,6 @@
 import wikipediaapi
 
-wiki_wiki = wikipediaapi.Wikipedia('en')
+wikipedia_en = wikipediaapi.Wikipedia('en')
 
-page = wiki_wiki.page('Python_(programming_language)')
+page = wikipedia_en.page('Python_(programming_language)')
 print(page.summary)
